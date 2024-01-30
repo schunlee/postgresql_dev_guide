@@ -3,52 +3,62 @@ ALTER TABLE departments ALTER CONSTRAINT dept_mgr_fk DEFERRABLE INITIALLY DEFERR
 BEGIN;
 
 INSERT INTO user_log VALUES 
-        ( 'Peter'
+        ( 1
+        ,'Peter'
         , '2015-10-12 01:10:00'
         , 'url1'
         );
 INSERT INTO user_log VALUES 
-        ( 'Peter'
+        ( 2
+        ,'Peter'
         , '2015-10-12 01:15:10'
         , 'url2'
         );
 INSERT INTO user_log VALUES 
-        ( 'Peter'
+        ( 3
+        ,'Peter'
         , '2015-10-12 01:16:40'
         , 'url3'
         );
 INSERT INTO user_log VALUES 
-        ( 'Peter'
+        ( 4
+        ,'Peter'
         , '2015-10-12 02:13:40'
         , 'url4'
         );
 INSERT INTO user_log VALUES 
-        ( 'Peter'
+        ( 5
+        ,'Peter'
         , '2015-10-12 03:14:30'
         , 'url5'
         );
 INSERT INTO user_log VALUES 
-        ( 'Mary'
+        ( 6
+        ,'Mary'
         , '2015-11-12 01:10:00'
         , 'url1'
         );
 INSERT INTO user_log VALUES 
-        ( 'Mary'
+        ( 7
+        ,'Mary'
         , '2015-11-12 01:15:10'
         , 'url2'
         );
 INSERT INTO user_log VALUES 
-        ( 'Mary'
+        ( 8
+        ,'Mary'
         , '2015-11-12 01:16:40'
         , 'url3'
         );
 INSERT INTO user_log VALUES 
-        ( 'Mary'
+        ( 9
+        ,'Mary'
         , '2015-11-12 02:13:00'
         , 'url4'
         );
 INSERT INTO user_log VALUES 
-        ( 'Mary'
+        ( 10
+        ,'Mary'
         , '2015-11-12 03:14:30'
         , 'url5'
         );
