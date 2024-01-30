@@ -1,9 +1,9 @@
 -- 用户浏览网页日志表
-CREATE TABLE user_log
-    ( user_id         CHARACTER VARYING(10) NOT NULL -- 用户编号，主键
+CREATE TABLE user_log -- 主键
+    ( id SERIAL PRIMARY KEY,
+      user_id         CHARACTER VARYING(10) NOT NULL -- 用户编号
     , time      TIMESTAMP NOT NULL -- 日志时间
     , url     TEXT -- 网页链接
-    , CONSTRAINT user_id_pk PRIMARY KEY(user_id)
     ) ;
 
 
