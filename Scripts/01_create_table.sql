@@ -1,3 +1,12 @@
+-- 用户浏览网页日志表
+CREATE TABLE user_log
+    ( user_id         CHARACTER VARYING(10) NOT NULL -- 用户编号，主键
+    , time      TIMESTAMP NOT NULL -- 日志时间
+    , url     TEXT -- 网页链接
+    , CONSTRAINT user_id_pk PRIMARY KEY(user_id)
+    ) ;
+
+
 -- 部门信息表
 CREATE TABLE departments
     ( department_id    INTEGER NOT NULL -- 部门编号，主键
